@@ -1,7 +1,7 @@
 # Video Stabilization
 
 ## Dependencies
-**Opencv**: tested with opencv4, may work with opencv3. Make sure your opencv is built with FFMEPG-flag **ON**!
+**Opencv**: tested with opencv4, may work with opencv3. Make sure your opencv is built with FFMPEG-FLAG **ON**!
 
 ## Compile
 `mkdir build` <br>

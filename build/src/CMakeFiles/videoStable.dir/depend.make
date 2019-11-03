@@ -4,12 +4,14 @@
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: ../include/videoStable.h
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: ../src/videoStable.cpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/calib3d.hpp
+src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/calib3d/calib3d.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/affine.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/async.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/base.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/bufferpool.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/check.hpp
+src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/core.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/cuda.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/cuda.inl.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/core/cuda_types.hpp
@@ -44,6 +46,7 @@ src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/dnn/version.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/features2d.hpp
+src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/features2d/features2d.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/flann.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/flann/all_indices.h
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/flann/allocator.h
@@ -77,8 +80,10 @@ src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/flann/saving.h
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/flann/timer.h
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/highgui.hpp
+src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/highgui/highgui.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/imgcodecs.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/imgproc.hpp
+src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/imgproc/imgproc.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/ml.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/ml/ml.inl.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/objdetect.hpp
@@ -124,4 +129,6 @@ src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/videostab/ring_buffer.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/videostab/stabilizer.hpp
 src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/videostab/wobble_suppression.hpp
+src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/xfeatures2d.hpp
+src/CMakeFiles/videoStable.dir/videoStable.cpp.o: /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
 

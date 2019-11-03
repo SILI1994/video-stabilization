@@ -7,15 +7,29 @@
 #IncludeRegexTransform: 
 
 ../include/videoStable.h
-opencv2/opencv.hpp
+opencv2/core/core.hpp
 -
-iostream
+opencv2/highgui/highgui.hpp
+-
+opencv2/features2d/features2d.hpp
+-
+opencv2/calib3d/calib3d.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/xfeatures2d.hpp
+-
+opencv2/opencv.hpp
 -
 cassert
 -
 cmath
 -
 fstream
+-
+iostream
+-
+vector
 -
 
 ../include/videoStatic.h

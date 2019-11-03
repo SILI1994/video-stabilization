@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/libvideoStatic.a  CMakeFiles/videoStatic.dir/videoStatic.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/libvideoStatic.a

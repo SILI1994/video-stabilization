@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/libvideoStable.a  CMakeFiles/videoStable.dir/videoStable.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/libvideoStable.a

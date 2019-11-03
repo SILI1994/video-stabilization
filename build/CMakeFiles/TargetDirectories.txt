@@ -1,0 +1,7 @@
+/Users/feiran-l/Desktop/video-stabilization/build/CMakeFiles/rebuild_cache.dir
+/Users/feiran-l/Desktop/video-stabilization/build/CMakeFiles/edit_cache.dir
+/Users/feiran-l/Desktop/video-stabilization/build/src/CMakeFiles/rebuild_cache.dir
+/Users/feiran-l/Desktop/video-stabilization/build/src/CMakeFiles/edit_cache.dir
+/Users/feiran-l/Desktop/video-stabilization/build/src/CMakeFiles/bin.dir
+/Users/feiran-l/Desktop/video-stabilization/build/src/CMakeFiles/videoStatic.dir
+/Users/feiran-l/Desktop/video-stabilization/build/src/CMakeFiles/videoStable.dir

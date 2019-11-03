@@ -12,6 +12,7 @@ VideoStable::VideoStable(const string inputPath, const string outputPath, const 
 //-------------------------------------------------------------------------------
 
 void VideoStable::run() const {
+    // Step 0 - read in the video
 	VideoCapture cap(inputPath);
     assert(cap.isOpened());
     Mat cur, cur_grey;

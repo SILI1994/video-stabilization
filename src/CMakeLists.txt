@@ -9,10 +9,17 @@ TARGET_LINK_LIBRARIES( videoStable
     ${OpenCV_LIBS} 
 )
 
+
+ADD_LIBRARY( videoStatic videoStatic.cpp )
+TARGET_LINK_LIBRARIES( videoStatic
+    ${OpenCV_LIBS} 
+)
+
 #------------------------------------------------
 
 ADD_EXECUTABLE( bin main.cpp )
 TARGET_LINK_LIBRARIES( bin 
     videoStable
+    videoStatic
     ${OpenCV_LIBS}  
 )

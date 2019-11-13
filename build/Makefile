@@ -124,19 +124,6 @@ bin/fast:
 .PHONY : bin/fast
 
 #=============================================================================
-# Target rules for targets named videoStatic
-
-# Build rule for target.
-videoStatic: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 videoStatic
-.PHONY : videoStatic
-
-# fast build rule for target.
-videoStatic/fast:
-	$(MAKE) -f src/CMakeFiles/videoStatic.dir/build.make src/CMakeFiles/videoStatic.dir/build
-.PHONY : videoStatic/fast
-
-#=============================================================================
 # Target rules for targets named videoStable
 
 # Build rule for target.
@@ -158,7 +145,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... bin"
-	@echo "... videoStatic"
 	@echo "... videoStable"
 .PHONY : help
 

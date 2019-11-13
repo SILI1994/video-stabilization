@@ -72,7 +72,6 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/bin.dir/all
-src/all: src/CMakeFiles/videoStatic.dir/all
 src/all: src/CMakeFiles/videoStable.dir/all
 
 .PHONY : src/all
@@ -84,7 +83,6 @@ src/preinstall:
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/bin.dir/clean
-src/clean: src/CMakeFiles/videoStatic.dir/clean
 src/clean: src/CMakeFiles/videoStable.dir/clean
 
 .PHONY : src/clean
@@ -93,7 +91,6 @@ src/clean: src/CMakeFiles/videoStable.dir/clean
 # Target rules for target src/CMakeFiles/bin.dir
 
 # All Build rule for target.
-src/CMakeFiles/bin.dir/all: src/CMakeFiles/videoStatic.dir/all
 src/CMakeFiles/bin.dir/all: src/CMakeFiles/videoStable.dir/all
 	$(MAKE) -f src/CMakeFiles/bin.dir/build.make src/CMakeFiles/bin.dir/depend
 	$(MAKE) -f src/CMakeFiles/bin.dir/build.make src/CMakeFiles/bin.dir/build
@@ -107,7 +104,7 @@ all: src/CMakeFiles/bin.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/feiran-l/Desktop/video-stabilization/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/feiran-l/Desktop/video-stabilization/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/feiran-l/Desktop/video-stabilization/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/bin.dir/rule
@@ -121,38 +118,6 @@ bin: src/CMakeFiles/bin.dir/rule
 src/CMakeFiles/bin.dir/clean:
 	$(MAKE) -f src/CMakeFiles/bin.dir/build.make src/CMakeFiles/bin.dir/clean
 .PHONY : src/CMakeFiles/bin.dir/clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/videoStatic.dir
-
-# All Build rule for target.
-src/CMakeFiles/videoStatic.dir/all:
-	$(MAKE) -f src/CMakeFiles/videoStatic.dir/build.make src/CMakeFiles/videoStatic.dir/depend
-	$(MAKE) -f src/CMakeFiles/videoStatic.dir/build.make src/CMakeFiles/videoStatic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/feiran-l/Desktop/video-stabilization/build/CMakeFiles --progress-num=5,6 "Built target videoStatic"
-.PHONY : src/CMakeFiles/videoStatic.dir/all
-
-# Include target in all.
-all: src/CMakeFiles/videoStatic.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/videoStatic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/feiran-l/Desktop/video-stabilization/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/videoStatic.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/feiran-l/Desktop/video-stabilization/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/videoStatic.dir/rule
-
-# Convenience name for target.
-videoStatic: src/CMakeFiles/videoStatic.dir/rule
-
-.PHONY : videoStatic
-
-# clean rule for target.
-src/CMakeFiles/videoStatic.dir/clean:
-	$(MAKE) -f src/CMakeFiles/videoStatic.dir/build.make src/CMakeFiles/videoStatic.dir/clean
-.PHONY : src/CMakeFiles/videoStatic.dir/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/videoStable.dir

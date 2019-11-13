@@ -80,7 +80,6 @@ bin_EXTERNAL_OBJECTS =
 ../bin/bin: src/CMakeFiles/bin.dir/main.cpp.o
 ../bin/bin: src/CMakeFiles/bin.dir/build.make
 ../bin/bin: ../lib/libvideoStable.a
-../bin/bin: ../lib/libvideoStatic.a
 ../bin/bin: /usr/local/Cellar/opencv/4.1.2/lib/libopencv_gapi.4.1.2.dylib
 ../bin/bin: /usr/local/Cellar/opencv/4.1.2/lib/libopencv_stitching.4.1.2.dylib
 ../bin/bin: /usr/local/Cellar/opencv/4.1.2/lib/libopencv_aruco.4.1.2.dylib

@@ -88,7 +88,7 @@ Mat VideoStable::calcRigidTransform(const Mat &img1, const Mat &img2) const {
     }
 
     // -- Step 5: Calc homography
-    Mat T = estimateRigidTransform(good_kp1, good_kp2, false); // false = rigid transform, no scaling/shearing
+    Mat T = estimateRigidTransform(good_kp2, good_kp1, false); // false = rigid transform, no scaling/shearing
   
     return T;
 }

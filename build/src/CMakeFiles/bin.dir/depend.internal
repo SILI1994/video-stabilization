@@ -3,7 +3,6 @@
 
 src/CMakeFiles/bin.dir/main.cpp.o
  ../include/videoStable.h
- ../include/videoStatic.h
  /Users/feiran-l/Desktop/video-stabilization/src/main.cpp
  /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/calib3d.hpp
  /usr/local/Cellar/opencv/4.1.2/include/opencv4/opencv2/calib3d/calib3d.hpp

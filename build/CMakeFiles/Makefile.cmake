@@ -58,6 +58,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/bin.dir/DependInfo.cmake"
-  "src/CMakeFiles/videoStatic.dir/DependInfo.cmake"
   "src/CMakeFiles/videoStable.dir/DependInfo.cmake"
   )

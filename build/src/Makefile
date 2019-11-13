@@ -126,21 +126,6 @@ bin/fast:
 .PHONY : bin/fast
 
 # Convenience name for target.
-src/CMakeFiles/videoStatic.dir/rule:
-	cd /Users/feiran-l/Desktop/video-stabilization/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/videoStatic.dir/rule
-.PHONY : src/CMakeFiles/videoStatic.dir/rule
-
-# Convenience name for target.
-videoStatic: src/CMakeFiles/videoStatic.dir/rule
-
-.PHONY : videoStatic
-
-# fast build rule for target.
-videoStatic/fast:
-	cd /Users/feiran-l/Desktop/video-stabilization/build && $(MAKE) -f src/CMakeFiles/videoStatic.dir/build.make src/CMakeFiles/videoStatic.dir/build
-.PHONY : videoStatic/fast
-
-# Convenience name for target.
 src/CMakeFiles/videoStable.dir/rule:
 	cd /Users/feiran-l/Desktop/video-stabilization/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/videoStable.dir/rule
 .PHONY : src/CMakeFiles/videoStable.dir/rule
@@ -209,33 +194,6 @@ videoStable.cpp.s:
 	cd /Users/feiran-l/Desktop/video-stabilization/build && $(MAKE) -f src/CMakeFiles/videoStable.dir/build.make src/CMakeFiles/videoStable.dir/videoStable.cpp.s
 .PHONY : videoStable.cpp.s
 
-videoStatic.o: videoStatic.cpp.o
-
-.PHONY : videoStatic.o
-
-# target to build an object file
-videoStatic.cpp.o:
-	cd /Users/feiran-l/Desktop/video-stabilization/build && $(MAKE) -f src/CMakeFiles/videoStatic.dir/build.make src/CMakeFiles/videoStatic.dir/videoStatic.cpp.o
-.PHONY : videoStatic.cpp.o
-
-videoStatic.i: videoStatic.cpp.i
-
-.PHONY : videoStatic.i
-
-# target to preprocess a source file
-videoStatic.cpp.i:
-	cd /Users/feiran-l/Desktop/video-stabilization/build && $(MAKE) -f src/CMakeFiles/videoStatic.dir/build.make src/CMakeFiles/videoStatic.dir/videoStatic.cpp.i
-.PHONY : videoStatic.cpp.i
-
-videoStatic.s: videoStatic.cpp.s
-
-.PHONY : videoStatic.s
-
-# target to generate assembly for a file
-videoStatic.cpp.s:
-	cd /Users/feiran-l/Desktop/video-stabilization/build && $(MAKE) -f src/CMakeFiles/videoStatic.dir/build.make src/CMakeFiles/videoStatic.dir/videoStatic.cpp.s
-.PHONY : videoStatic.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -245,7 +203,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... bin"
-	@echo "... videoStatic"
 	@echo "... videoStable"
 	@echo "... main.o"
 	@echo "... main.i"
@@ -253,9 +210,6 @@ help:
 	@echo "... videoStable.o"
 	@echo "... videoStable.i"
 	@echo "... videoStable.s"
-	@echo "... videoStatic.o"
-	@echo "... videoStatic.i"
-	@echo "... videoStatic.s"
 .PHONY : help
 
 
